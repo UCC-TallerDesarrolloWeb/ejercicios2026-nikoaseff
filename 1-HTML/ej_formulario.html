@@ -18,7 +18,9 @@
     https://www.w3schools.com/html/tryit.asp?filename=tryhtml_elem_output-->
 
 <h3>Suscribase a Nuestro Portal de Noticias! Crear una cuenta es rápido!</h3>
-<form name="form-suscripcion">
+<form name="form-suscripcion"> 
+    <fieldset>
+        <legend>Datos personales</legend>
 <p>
     <label for=" nombre"> Nombre</label>
 Nombre: <input type="text" name="nombre" placeholder="ingrese su nombre">
@@ -41,6 +43,9 @@ Edad: <input type="number" name="edad" placeholder="Edad">
     <label for=" email"> email</label>
 Email: <input type="email" name="mail" placeholder="usuario@dominio.com">
 </p>
+</fieldset>
+<fieldset>
+    <legend>Datos de cuenta</legend>
 <p>
     <label for=" usuario"> usuario</label>
 Usuario: <input type="text" name="usuario" placeholder="Nombre de usuario">
@@ -53,6 +58,9 @@ Password: <input type="password" name="contraseña" id="contraseña">
     <label for=" password repeat"> repetir contraseña</label>
 Confirmar Password: <input type="password" name="repita lacontraseña" id="repita la contraseña">
 </p>
+</fieldset>
+<fieldset>
+<legend>Tipo de subscripcion</legend>
 <p>
 Tipo de servicio:
 <select name="tipo-servicio">
@@ -83,7 +91,7 @@ Agregue un comentario:
     </button>
 
 </p>
-
+</fieldset>
 
 </body>
 </html>
