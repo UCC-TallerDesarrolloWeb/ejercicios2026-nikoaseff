@@ -20,9 +20,9 @@
 ### CSS
 -  [X] Propiedades tipográficas
 -  [X] Incrustado
--  [ ] Estilo con Descendientes
--  [ ] Pseudo Clases
--  [ ] CV
+-  [X] Estilo con Descendientes
+-  [X] Pseudo Clases
+-  [X] CV
 -  [ ] Backgrounds
 -  [ ] Position
 -  [ ] 2 Columnas
