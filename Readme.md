@@ -14,24 +14,12 @@
 
 ## Unidad 2: Fundamentos de HTML5 y CSS3
 
-### HTML
--  [X] Primer HTML
--  [X] Secciones
--  [X] Títulos
--  [X] Listas
--  [ ] Link
--  [ ] Tablas I
--  [ ] Tablas II
--  [ ] Tablas III
--  [ ] Tablas VI
--  [ ] Comentarios
--  [ ] Formulario
--  [ ] Accesibilidad
--  [ ] Multimedia
+
+
 
 ### CSS
--  [ ] Propiedades tipográficas
--  [ ] Incrustado
+-  [X] Propiedades tipográficas
+-  [X] Incrustado
 -  [ ] Estilo con Descendientes
 -  [ ] Pseudo Clases
 -  [ ] CV
