@@ -20,6 +20,8 @@ main{
         }
     }
 
+}
+
     .item1{
         grid-area: header;
     }
@@ -58,4 +60,3 @@ main{
         background-color: var(--background-color);
         padding: 15px;
     }
-}
