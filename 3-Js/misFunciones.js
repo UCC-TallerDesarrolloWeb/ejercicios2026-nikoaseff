@@ -91,3 +91,10 @@ mostrarocultar = (valor) => {
         document.getElementById("undiv").style.display = 'none';
     }
 }
+
+function calcularSuma(){
+    let sum1, sum2;
+    sum1 = Number (document.getElementById("num1").value);
+    sum2 = Number (document.getElementById("num2").value);
+    document.getElementById("totalS").value = sum1 + sum2;
+}

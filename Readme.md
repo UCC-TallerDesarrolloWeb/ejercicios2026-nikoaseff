@@ -40,8 +40,8 @@
 -  [X] Documentación
 -  [X] Grados a Radianes
 -  [X] Refactorización
--  [ ] Mostrar/Ocultar div
--  [ ] Mostrar/Ocultar Dialog
+-  [X] Mostrar/Ocultar div
+-  [X] Mostrar/Ocultar Dialog
 -  [ ] Operaciones Matemáticas
 -  [ ] Conversor de Unidades II
 -  [ ] Operaciones Matemáticas II
