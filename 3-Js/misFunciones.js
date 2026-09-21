@@ -12,6 +12,7 @@ convertirUnidades = (id, valor) => {
 
     let metros, pulgadas, pies, yardas
 
+    valor = valor.replace(",",".")
     if(isNaN(valor)){
         alert("se ingreso un valor incorrecto donde deberia haber "+id); 
 

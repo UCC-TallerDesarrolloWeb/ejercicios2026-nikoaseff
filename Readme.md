@@ -43,7 +43,7 @@
 -  [X] Mostrar/Ocultar div
 -  [X] Mostrar/Ocultar Dialog
 -  [ ] Operaciones Matemáticas
--  [ ] Conversor de Unidades II
+-  [X] Conversor de Unidades II
 -  [ ] Operaciones Matemáticas II
 -  [ ] Renderizado Dinámico
 -  [ ] Renderizado Dinámico del Dialog
