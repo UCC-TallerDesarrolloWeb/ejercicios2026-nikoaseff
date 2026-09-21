@@ -62,10 +62,10 @@ convertirUnidades = (id, valor) => {
 
         pies = valor * 3; 
     }
-    document.getElementById("metro").value = metros;
-    document.getElementById("pulgada").value = pulgadas;
-    document.getElementById("pie").value = pies;
-    document.getElementById("yarda").value = yardas;
+    document.getElementById("metro").value = Math.round(metros*100)/100;
+    document.getElementById("pulgada").value = Math.round(pulgadas*100)/100;
+    document.getElementById("pie").value = Math.round(pies*100)/100;
+    document.getElementById("yarda").value = Math.round(yardas*100)/100;
 
 }
 
@@ -97,5 +97,5 @@ function calcularSuma(){
     let sum1, sum2;
     sum1 = Number (document.getElementById("num1").value);
     sum2 = Number (document.getElementById("num2").value);
-    document.getElementById("totalS").value = sum1 + sum2;
+    document.getElementById("totalS").innerText = sum1 + Number(sum2);
 }

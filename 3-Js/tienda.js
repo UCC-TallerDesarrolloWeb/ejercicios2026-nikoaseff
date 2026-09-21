@@ -65,3 +65,13 @@ const productos = [
 mostrarmodal = () => {
   document.getElementById("modal").style.display = 'block';
 }
+
+function mostrarCatalogo(){
+  productos.forEach((producto) => {
+    contenido = `<div>
+      <img src="https"></img>
+      <h3>${producto.nombre}</h3>
+      <button type="button" onclick="mostrarmodal()"></button>
+    </div>`
+  })
+}
