@@ -84,3 +84,10 @@ function convertirGR(id){
     document.getElementById("radianes").value = rad; 
 }
 
+mostrarocultar = (valor) => {
+    if(valor === "val_mostrar"){
+        document.getElementById("undiv").style.display = 'block';
+    }else{
+        document.getElementById("undiv").style.display = 'none';
+    }
+}
