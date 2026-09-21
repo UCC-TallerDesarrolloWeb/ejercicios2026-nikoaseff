@@ -63,6 +63,8 @@ const productos = [
 ];
 /* mostrar un modal con el detalle del producto*/
 mostrarmodal = () => {
+  document.getElementById("nombre-producto").innerText = productos[num].nombre;
+  document.getElementById("descripcion-producto").innerText = productos[num].description;
   document.getElementById("modal").style.display = 'block';
 }
 
@@ -72,7 +74,7 @@ productos.forEach((producto) => {
 contenido += `<div>
 <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/${producto.imagen}" alt="${producto.nombre}"></img>
 <h3>${producto.nombre}</h3>
-<button type="button" onclck="mostrarModal()">ver detalle producto</button>
+<button type="button" onclck="mostrarModal(${id})">ver detalle producto</button>
 </div>`
 });
 document.getElementById("catalogo").innerHTML = contenido;

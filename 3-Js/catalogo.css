@@ -60,3 +60,12 @@ main{
         background-color: var(--background-color);
         padding: 15px;
     }
+
+    #modal{
+        width: 50%;
+        height: 50%;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
