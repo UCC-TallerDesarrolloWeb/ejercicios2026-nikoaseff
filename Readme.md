@@ -9,8 +9,8 @@
 # Checklist de Ejercicios OBLIGATORIOS por unidad
 
 ## Unidad 1: Introducción y Herramientas de Desarrollo
--  [ ] Readme.md
--  [ ] .gitignore
+-  [X] Readme.md
+-  [X] .gitignore
 
 ## Unidad 2: Fundamentos de HTML5 y CSS3
 
@@ -23,23 +23,23 @@
 -  [X] Estilo con Descendientes
 -  [X] Pseudo Clases
 -  [X] CV
--  [ ] Backgrounds
--  [ ] Position
--  [ ] 2 Columnas
--  [ ] Grid
--  [ ] grid-areas
--  [ ] Mejora
--  [ ] Transitions
--  [ ] Viewport
--  [ ] Responsive
+-  [X] Backgrounds
+-  [X] Position
+-  [X] 2 Columnas
+-  [X] Grid
+-  [X] grid-areas
+-  [X] Mejora
+-  [X] Transitions
+-  [X] Viewport
+-  [X] Responsive
 
 ## Unidad 3: JavaScript y ES6+
 
--  [ ] Hola Mundo!
--  [ ] Conversor de Unidades
--  [ ] Documentación
--  [ ] Grados a Radianes
--  [ ] Refactorización
+-  [X] Hola Mundo!
+-  [X] Conversor de Unidades
+-  [X] Documentación
+-  [X] Grados a Radianes
+-  [X] Refactorización
 -  [ ] Mostrar/Ocultar div
 -  [ ] Mostrar/Ocultar Dialog
 -  [ ] Operaciones Matemáticas
