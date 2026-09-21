@@ -67,11 +67,13 @@ mostrarmodal = () => {
 }
 
 function mostrarCatalogo(){
-  productos.forEach((producto) => {
-    contenido = `<div>
-      <img src="https"></img>
-      <h3>${producto.nombre}</h3>
-      <button type="button" onclick="mostrarmodal()"></button>
-    </div>`
-  })
+let contenido = ""
+productos.forEach((producto) => {
+contenido += `<div>
+<img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/${producto.imagen}" alt="${producto.nombre}"></img>
+<h3>${producto.nombre}</h3>
+<button type="button" onclck="mostrarModal()">ver detalle producto</button>
+</div>`
+});
+document.getElementById("catalogo").innerHTML = contenido;
 }
