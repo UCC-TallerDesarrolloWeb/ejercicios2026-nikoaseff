@@ -44,11 +44,11 @@
 -  [X] Mostrar/Ocultar Dialog
 -  [ ] Operaciones Matemáticas
 -  [X] Conversor de Unidades II
--  [ ] Operaciones Matemáticas II
--  [ ] Renderizado Dinámico
--  [ ] Renderizado Dinámico del Dialog
--  [ ] Carrito de Compras con localstorage
--  [ ] Vaciar Carrito y Eliminar Producto
+-  [X] Operaciones Matemáticas II
+-  [X] Renderizado Dinámico
+-  [X] Renderizado Dinámico del Dialog
+-  [X] Carrito de Compras con localstorage
+-  [X] Vaciar Carrito y Eliminar Producto
 -  [ ] Filter
 -  [ ] Formatear Precio
 -  [ ] Total y Cantidad de Productos

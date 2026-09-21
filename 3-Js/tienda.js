@@ -74,8 +74,25 @@ productos.forEach((producto) => {
 contenido += `<div>
 <img src="https://ucc-tallerdesarrolloweb.github.io/filminas/images/ejercicios/${producto.imagen}" alt="${producto.nombre}"></img>
 <h3>${producto.nombre}</h3>
-<button type="button" onclck="mostrarModal(${id})">ver detalle producto</button>
-</div>`
+<button type="button" onclck="mostrarModal(${id})"> ver detalle producto</button>
+<button type="button" onclick="agregarAlCarrito(${id})"> Agregar al Carrito </button>
+</div>`;
 });
 document.getElementById("catalogo").innerHTML = contenido;
+}
+
+agregarAlCarrito = (num) => {
+  let carritoList = localStorage.getItem("carrito");
+  console.log(carritoList);
+
+  if(carritoList==[] || carritoList==null){
+    carritoList=[];
+  }else{
+    carritoList=JSON.parse(carritoList);
+    carritoList.push(carritoList);
+    console.log(carritoList);
+  }
+  carritoList.push(num);
+  console.log(carritoList);
+  localStorage.setItem("carrito", JSON.stringify(carritoList));
 }
