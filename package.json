@@ -1,0 +1,27 @@
+{
+  "name": "ejercicios-node",
+  "version": "1.0.0",
+  "description": "- Emplea **Conventional Commits**\r - Comitea luego de cada ejercicio\r - Haz los ejercicios en clase (recuerda que presentarlos es obligatorio para rendir el final)\r - No uses herramientas de IA para los ejercicios de clase\r - Mira los videos de las diapositivas que explican cómo resolver cada ejercicio\r - Marca en este readme que ejercicios ya has resuelto",
+  "homepage": "https://github.com/UCC-TallerDesarrolloWeb/ejercicios2026-nikoaseff#readme",
+  "bugs": {
+    "url": "https://github.com/UCC-TallerDesarrolloWeb/ejercicios2026-nikoaseff/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCC-TallerDesarrolloWeb/ejercicios2026-nikoaseff.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^10.12.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.6",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.9"
+  }
+}
