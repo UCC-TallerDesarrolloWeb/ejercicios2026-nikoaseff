@@ -24,3 +24,7 @@ body{
     color: $color;
     margin: 20px;
 }
+
+.caja{
+    @include caja_personalizada($fondo: orange, $color: red);
+}
